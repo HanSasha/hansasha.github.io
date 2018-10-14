@@ -1,0 +1,185 @@
+@include media-breakpoint-up(md) {
+
+  // general
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  body {
+    font-size: 28px;
+  }
+  footer {
+    .copyright {
+      font-size: 16px;
+    }
+  }
+
+  //header
+  header {
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .sticky-bar {
+      .hamburger {
+        display: none;
+      }
+    }
+    .navmenu {
+      position: static;
+      background-color: transparent;
+      opacity: 1;
+      z-index: 0;
+      display: inline-block;
+      ul {
+        a {
+          font-size: 20px;
+          padding: 0 15px;
+        }
+        display: inline-block;
+      }
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  //main
+
+  //index
+  .main-content {
+    margin-bottom: 200px;
+    .description {
+      font-size: 40px;
+    }
+    .cheer-up {
+      font-size: 16px;
+    }
+  }
+
+  //contact
+
+  .contact-page {
+    .contact-me {
+      font-size: 40px;
+      margin-bottom: 150px;
+    }
+  }
+
+  footer {
+    .contact-inf {
+      font-size: 28px;
+    }
+    .socials {
+      margin-top: 50px;
+    }
+  }
+
+  //about
+
+  .about-page {
+    .my-education {
+      margin-bottom: 200px;
+    }
+    .my-experience {
+      margin-bottom: 200px;
+    }
+    .skills {
+      .ux-skills {
+        margin-bottom: 150px;
+      }
+    }
+  }
+
+  //works
+
+  .works-page {
+    .card {
+      h2 {
+        font-size: 28px;
+      }
+      font-size: 20px;
+    }
+  }
+
+  //aroma kava
+
+  .aroma-kava {
+    .title-aroma {
+      margin-bottom: 100px;
+    }
+    .brief-aroma {
+      margin-bottom: 100px;
+    }
+    .HCD-aroma {
+      margin-bottom: 100px;
+    }
+    .cases-aroma {
+      margin-bottom: 100px;
+    }
+    .proto-aroma {
+      margin-bottom: 100px;
+    }
+  }
+
+  //SPAS
+
+  .spas-page {
+    .title-spas {
+      margin-bottom: 150px;
+    }
+    .work-plan-spas {
+      margin-bottom: 100px;
+    }
+    .personas-spas {
+      margin-bottom: 100px;
+    }
+    .heuristic-spas {
+      margin-bottom: 100px;
+    }
+    .testing-spas {
+      margin-bottom: 100px;
+    }
+    .prot-spas {
+      margin-bottom: 100px;
+    }
+  }
+
+  //salateria
+
+  .salateria {
+    .title-salateria {
+      margin-bottom: 100px;
+    }
+    .chat-bot-salateria {
+      margin-bottom: 100px;
+    }
+    .work-plan-salateria {
+      margin-bottom: 150px;
+    }
+    .proto-salateria {
+      margin-bottom: 100px;
+    }
+  }
+
+  //kate design
+  .textile-page {
+    .title-textile {
+      margin-bottom: 100px;
+    }
+    .photo-textile {
+      margin-bottom: 100px;
+    }
+  }
+
+}
