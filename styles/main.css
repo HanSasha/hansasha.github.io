@@ -2254,7 +2254,11 @@ img {
 }
 
 a {
-  color: orange;
+  color: #6E00A1;
+  text-decoration: underline;
+}
+a:hover {
+  color: red;
 }
 
 header {
@@ -2362,12 +2366,16 @@ header .navmenu ul {
   flex-direction: column;
 }
 header .navmenu ul a {
+  text-decoration: none;
   font-size: 40px;
   display: inline-block;
   padding: 10px 0;
   color: #6E00A1;
   font-weight: bold;
   text-transform: lowercase;
+}
+header .navmenu ul a:hover {
+  color: red;
 }
 header .navmenu ul a:before {
   content: ".";
