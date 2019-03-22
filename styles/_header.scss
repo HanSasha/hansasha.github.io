@@ -121,7 +121,7 @@ header {
         font-weight: bold;
         text-transform: lowercase;
         &:hover{
-          color: red;
+          color: $accent-color;
         }
         &:before {
           content: ".";

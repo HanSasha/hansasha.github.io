@@ -2519,6 +2519,19 @@ html {
   }
 }
 
+.projectpage img {
+  width: 100%;
+  height: auto;
+}
+
+.projectpage h1 {
+  margin-bottom: 50px;
+}
+
+.projectpage .card {
+  margin-bottom: 100px;
+}
+
 @font-face {
   font-family: Consolas;
   src: url("../fonts/Consolas.ttf");
@@ -2530,7 +2543,7 @@ html {
 
 body {
   font-family: Consolas;
-  color: #6E00A1;
+  color: #6e00a1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2542,6 +2555,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   min-height: 100%;
+}
+
+main {
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -2566,12 +2583,12 @@ img {
 }
 
 a {
-  color: #6E00A1;
-  text-decoration: underline;
+  color: #6e00a1;
+  text-decoration: none;
 }
 
 a:hover {
-  color: red;
+  color: #9100d4;
 }
 
 header {
@@ -2601,7 +2618,7 @@ header .hamburger {
 }
 
 header .hamburger .line {
-  background-color: #6E00A1;
+  background-color: #6e00a1;
   width: 40px;
   height: 5px;
   display: block;
@@ -2707,13 +2724,13 @@ header .navmenu ul a {
   font-size: 40px;
   display: inline-block;
   padding: 10px 0;
-  color: #6E00A1;
+  color: #6e00a1;
   font-weight: bold;
   text-transform: lowercase;
 }
 
 header .navmenu ul a:hover {
-  color: red;
+  color: #9100d4;
 }
 
 header .navmenu ul a:before {
@@ -2733,7 +2750,7 @@ header .navmenu ul a:before {
 .main-content .cheer-up {
   margin-top: 10px;
   font-size: 12px;
-  color: #D39BF6;
+  color: #d39bf6;
 }
 
 .contact-page {
@@ -2782,7 +2799,7 @@ header .navmenu ul a:before {
 }
 
 .works-page a {
-  color: #6E00A1;
+  color: #6e00a1;
 }
 
 .works-page .card {
@@ -2801,7 +2818,7 @@ header .navmenu ul a:before {
 }
 
 .works-page .img:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -2820,6 +2837,18 @@ header .navmenu ul a:before {
 
 .aroma-kava .title-aroma .title-aroma-photo {
   margin-bottom: 50px;
+}
+
+.aroma-kava .inspiration-phase {
+  margin-bottom: 100px;
+}
+
+.aroma-kava .ideation_phase .HCD-aroma-text {
+  margin-bottom: 30px;
+}
+
+.aroma-kava .ideation_phase img {
+  width: 450px;
 }
 
 .aroma-kava .brief-aroma {
@@ -2846,20 +2875,37 @@ header .navmenu ul a:before {
   margin-bottom: 20px;
 }
 
-.spas-page .work-plan-spas {
-  margin-bottom: 50px;
+.spas-page .empathize {
+  margin-bottom: 100px;
 }
 
-.spas-page .personas-spas {
-  margin-bottom: 50px;
+.spas-page .empathize img {
+  vertical-align: middle;
+  width: 440px;
 }
 
-.spas-page .heuristic-spas {
-  margin-bottom: 50px;
+.spas-page .define {
+  margin-bottom: 100px;
 }
 
-.spas-page .testing-spas {
-  margin-bottom: 50px;
+.spas-page .define img {
+  width: 300px;
+}
+
+.spas-page .define .heuristicpic {
+  margin-top: 100px;
+}
+
+.spas-page .define .heuristicpic img {
+  width: 1000px;
+}
+
+.spas-page .ideate {
+  margin-bottom: 100px;
+}
+
+.spas-page .prototype {
+  margin-bottom: 100px;
 }
 
 .spas-page .prot-spas {
@@ -3008,7 +3054,7 @@ footer .contact-inf {
     margin: 0;
   }
   .works-page .container .card.ux {
-    background-image: url("./../images/uxdesignpic.png");
+    background-image: url("/images/uxdesignpic.png");
   }
   .works-page .container .card.ux h2 {
     padding-left: 50px;
@@ -3016,7 +3062,7 @@ footer .contact-inf {
     line-height: 1;
   }
   .works-page .container .card.web {
-    background-image: url("./../images/webdesignpic.png");
+    background-image: url("/images/webdesignpic.png");
   }
   .works-page .container .card.web h2 {
     text-align: right;
@@ -3025,7 +3071,7 @@ footer .contact-inf {
     line-height: 1;
   }
   .works-page .container .card.interior {
-    background-image: url("./../images/interiordesignpic.png");
+    background-image: url("/images/interiordesignpic.png");
   }
   .works-page .container .card.interior h2 {
     padding-left: 100px;

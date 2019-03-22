@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../node_modules/bootstrap/scss/bootstrap-grid";
+@import "pages/projectpage";
 
 @font-face {
   font-family: Consolas;
@@ -7,7 +8,8 @@
 }
 
 //main-color 6E00A1
-$main-color: #6E00A1;
+$main-color: #6e00a1;
+$accent-color: lighten($main-color, 10%);
 
 @import "./general";
 @import "./header";
@@ -22,7 +24,7 @@ $main-color: #6E00A1;
   .cheer-up {
     margin-top: 10px;
     font-size: 12px;
-    color: #D39BF6;
+    color: #d39bf6;
   }
 }
 
@@ -40,7 +42,6 @@ $main-color: #6E00A1;
 
   .foto {
     img {
-
       max-width: 100%;
       margin-bottom: 15px;
     }
@@ -87,14 +88,14 @@ $main-color: #6E00A1;
     background-position: center;
     background-size: cover;
     position: relative;
-    &:after{
-      content: '';
+    &:after {
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0,0,0,0.5);
+      background-color: rgba(0, 0, 0, 0.5);
     }
   }
 }
@@ -112,6 +113,20 @@ $main-color: #6E00A1;
       margin-bottom: 50px;
     }
   }
+
+  .inspiration-phase {
+margin-bottom: 100px;
+  }
+
+  .ideation_phase{
+    .HCD-aroma-text{
+      margin-bottom: 30px;
+    }
+    img{
+      width: 450px;
+    }
+  }
+
   .brief-aroma {
     margin-bottom: 50px;
   }
@@ -138,20 +153,34 @@ $main-color: #6E00A1;
     margin-bottom: 50px;
   }
 
-  .work-plan-spas {
-    margin-bottom: 50px;
+  .empathize {
+    margin-bottom: 100px;
+    img{
+      vertical-align: middle;
+      width: 440px;
+    }
   }
 
-  .personas-spas {
-    margin-bottom: 50px;
+  .define {
+    
+    margin-bottom: 100px;
+    img{
+      width: 300px;
+    }
+    .heuristicpic{
+      margin-top: 100px;
+      img{ 
+        width: 1000px;
+      }
+    }
   }
 
-  .heuristic-spas {
-    margin-bottom: 50px;
+  .ideate{
+    margin-bottom: 100px;
   }
 
-  .testing-spas {
-    margin-bottom: 50px;
+  .prototype {
+    margin-bottom: 100px;
   }
 
   .prot-spas {

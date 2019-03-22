@@ -112,7 +112,7 @@
         background-size: cover;
         margin: 0;
         &.ux {
-          background-image: url("./../images/uxdesignpic.png"); 
+          background-image: url("/images/uxdesignpic.png"); 
           h2 {
             padding-left: 50px;
             padding-top: 50px;
@@ -120,7 +120,7 @@
           }
         }
         &.web {
-          background-image: url("./../images/webdesignpic.png");
+          background-image: url("/images/webdesignpic.png");
           h2 {
             text-align: right;
             padding-right: 100px;
@@ -129,7 +129,7 @@
           }
         }
         &.interior {
-          background-image: url("./../images/interiordesignpic.png");
+          background-image: url("/images/interiordesignpic.png");
           h2 {
             padding-left: 100px;
             padding-top: 100px;
