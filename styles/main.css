@@ -2786,6 +2786,10 @@ header .navmenu ul a:before {
   margin-bottom: 30px;
 }
 
+.about-page .my-experience .kotra {
+  margin-bottom: 30px;
+}
+
 .about-page .ux-skills {
   margin-bottom: 70px;
 }
@@ -2944,6 +2948,34 @@ header .navmenu ul a:before {
 
 .salateria .proto-salateria {
   margin-bottom: 50px;
+}
+
+.WB-423 .aboutapartment {
+  margin-bottom: 50px;
+}
+
+.WB-423 .kitchen {
+  margin-bottom: 100px;
+}
+
+.WB-423 .kitchen .kitchenfoto {
+  margin-bottom: 100px;
+}
+
+.WB-423 .bathroom {
+  margin-bottom: 100px;
+}
+
+.WB-423 .bathroom .bathroomfoto {
+  margin-bottom: 100px;
+}
+
+.WB-423 .badroom {
+  margin-bottom: 100px;
+}
+
+.WB-423 .badroom .badroomfoto {
+  margin-bottom: 100px;
 }
 
 footer {

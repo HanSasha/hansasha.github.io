@@ -52,10 +52,14 @@ $accent-color: lighten($main-color, 10%);
     .sheva {
       margin-bottom: 30px;
     }
+  
   }
   .my-experience {
     margin-bottom: 70px;
     .advanter {
+      margin-bottom: 30px;
+    }
+    .kotra{
       margin-bottom: 30px;
     }
   }
@@ -115,14 +119,14 @@ $accent-color: lighten($main-color, 10%);
   }
 
   .inspiration-phase {
-margin-bottom: 100px;
+    margin-bottom: 100px;
   }
 
-  .ideation_phase{
-    .HCD-aroma-text{
+  .ideation_phase {
+    .HCD-aroma-text {
       margin-bottom: 30px;
     }
-    img{
+    img {
       width: 450px;
     }
   }
@@ -155,27 +159,26 @@ margin-bottom: 100px;
 
   .empathize {
     margin-bottom: 100px;
-    img{
+    img {
       vertical-align: middle;
       width: 440px;
     }
   }
 
   .define {
-    
     margin-bottom: 100px;
-    img{
+    img {
       width: 300px;
     }
-    .heuristicpic{
+    .heuristicpic {
       margin-top: 100px;
-      img{ 
+      img {
         width: 1000px;
       }
     }
   }
 
-  .ideate{
+  .ideate {
     margin-bottom: 100px;
   }
 
@@ -222,6 +225,33 @@ margin-bottom: 100px;
 
   .proto-salateria {
     margin-bottom: 50px;
+  }
+}
+
+//interior design
+.WB-423 {
+  .aboutapartment{
+    margin-bottom: 50px;
+  }
+  .kitchen {
+    margin-bottom: 100px;
+    .kitchenfoto {
+      margin-bottom: 100px;
+    }
+  }
+
+  .bathroom {
+    margin-bottom: 100px;
+    .bathroomfoto {
+      margin-bottom: 100px;
+    }
+  }
+
+  .badroom {
+    margin-bottom: 100px;
+    .badroomfoto{
+      margin-bottom: 100px;
+    }
   }
 }
 
