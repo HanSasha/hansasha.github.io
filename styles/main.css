@@ -2529,7 +2529,7 @@ html {
 }
 
 .projectpage .card {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 @font-face {
@@ -2831,6 +2831,10 @@ header .navmenu ul a:before {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.aroma-kava .brief-aroma .brief-aroma-photo {
+  width: 200px;
+}
+
 .aroma-kava .title-aroma .tags-aroma {
   margin-bottom: 20px;
 }
@@ -2844,7 +2848,11 @@ header .navmenu ul a:before {
 }
 
 .aroma-kava .inspiration-phase {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.aroma-kava .inspiration-phase .HCD-aroma-photo img {
+  width: 200px;
 }
 
 .aroma-kava .ideation_phase .HCD-aroma-text {
@@ -2885,19 +2893,19 @@ header .navmenu ul a:before {
 
 .spas-page .empathize img {
   vertical-align: middle;
-  width: 440px;
+  width: 200px;
 }
 
 .spas-page .define {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .spas-page .define img {
-  width: 300px;
+  width: 200px;
 }
 
 .spas-page .define .heuristicpic {
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .spas-page .define .heuristicpic img {
@@ -2955,27 +2963,81 @@ header .navmenu ul a:before {
 }
 
 .WB-423 .kitchen {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .WB-423 .kitchen .kitchenfoto {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .WB-423 .bathroom {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .WB-423 .bathroom .bathroomfoto {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .WB-423 .badroom {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .WB-423 .badroom .badroomfoto {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+}
+
+.works-page {
+  margin-bottom: 50px;
+}
+
+.works-page .container .card {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.works-page .container .card.ux {
+  background-image: url("/images/uxdesignpic.png");
+}
+
+.works-page .container .card.ux h2 {
+  padding-left: 20px;
+  padding-top: 20px;
+  line-height: 1;
+}
+
+.works-page .container .card.web {
+  background-image: url("/images/webdesignpic.png");
+}
+
+.works-page .container .card.web h2 {
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 20px;
+  line-height: 1;
+}
+
+.works-page .container .card.interior {
+  background-image: url("/images/interiordesignpic.png");
+}
+
+.works-page .container .card.interior h2 {
+  padding-left: 20px;
+  padding-top: 20px;
+  line-height: 1;
+}
+
+.works-page .container a {
+  text-decoration: none;
+}
+
+.works-page .container h2 {
+  font-size: 20px;
+  color: white;
 }
 
 footer {
@@ -3167,6 +3229,94 @@ footer .contact-inf {
   }
   .textile-page .photo-textile {
     margin-bottom: 100px;
+  }
+  .projectpage .card {
+    margin-bottom: 100px;
+  }
+  .WB-423 .aboutapartment {
+    margin-bottom: 50px;
+  }
+  .WB-423 .kitchen {
+    margin-bottom: 100px;
+  }
+  .WB-423 .kitchen .kitchenfoto {
+    margin-bottom: 100px;
+  }
+  .WB-423 .bathroom {
+    margin-bottom: 100px;
+  }
+  .WB-423 .bathroom .bathroomfoto {
+    margin-bottom: 100px;
+  }
+  .WB-423 .badroom {
+    margin-bottom: 100px;
+  }
+  .WB-423 .badroom .badroomfoto {
+    margin-bottom: 100px;
+  }
+  .spas-page .title-spas {
+    margin-bottom: 50px;
+  }
+  .spas-page .title-spas .tags-spas {
+    margin-bottom: 20px;
+  }
+  .spas-page .empathize {
+    margin-bottom: 100px;
+  }
+  .spas-page .empathize img {
+    vertical-align: middle;
+    width: 440px;
+  }
+  .spas-page .define {
+    margin-bottom: 100px;
+  }
+  .spas-page .define img {
+    width: 300px;
+  }
+  .spas-page .define .heuristicpic {
+    margin-top: 100px;
+  }
+  .spas-page .define .heuristicpic img {
+    width: 1000px;
+  }
+  .spas-page .ideate {
+    margin-bottom: 100px;
+  }
+  .spas-page .prototype {
+    margin-bottom: 100px;
+  }
+  .spas-page .prot-spas {
+    margin-bottom: 50px;
+  }
+  .aroma-kava .title-aroma .tags-aroma {
+    margin-bottom: 20px;
+  }
+  .aroma-kava .title-aroma .project-info {
+    margin-bottom: 50px;
+  }
+  .aroma-kava .title-aroma .title-aroma-photo {
+    margin-bottom: 50px;
+  }
+  .aroma-kava .inspiration-phase {
+    margin-bottom: 100px;
+  }
+  .aroma-kava .ideation_phase .HCD-aroma-text {
+    margin-bottom: 30px;
+  }
+  .aroma-kava .ideation_phase img {
+    width: 450px;
+  }
+  .aroma-kava .brief-aroma {
+    margin-bottom: 50px;
+  }
+  .aroma-kava .HCD-aroma {
+    margin-bottom: 50px;
+  }
+  .aroma-kava .cases-aroma {
+    margin-bottom: 50px;
+  }
+  .aroma-kava .proto-aroma {
+    margin-bottom: 50px;
   }
 }
 /*# sourceMappingURL=main.css.map */
