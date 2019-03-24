@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../node_modules/bootstrap/scss/bootstrap-grid";
+@import "pages/projectpage";
 
 @font-face {
   font-family: Consolas;
@@ -7,7 +8,8 @@
 }
 
 //main-color 6E00A1
-$main-color: #6E00A1;
+$main-color: #6e00a1;
+$accent-color: lighten($main-color, 10%);
 
 @import "./general";
 @import "./header";
@@ -22,7 +24,7 @@ $main-color: #6E00A1;
   .cheer-up {
     margin-top: 10px;
     font-size: 12px;
-    color: #D39BF6;
+    color: #d39bf6;
   }
 }
 
@@ -40,7 +42,6 @@ $main-color: #6E00A1;
 
   .foto {
     img {
-
       max-width: 100%;
       margin-bottom: 15px;
     }
@@ -51,10 +52,14 @@ $main-color: #6E00A1;
     .sheva {
       margin-bottom: 30px;
     }
+  
   }
   .my-experience {
     margin-bottom: 70px;
     .advanter {
+      margin-bottom: 30px;
+    }
+    .kotra{
       margin-bottom: 30px;
     }
   }
@@ -87,20 +92,26 @@ $main-color: #6E00A1;
     background-position: center;
     background-size: cover;
     position: relative;
-    &:after{
-      content: '';
+    &:after {
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0,0,0,0.5);
+      background-color: rgba(0, 0, 0, 0.5);
     }
   }
 }
 
 //Aroma Kava
 .aroma-kava {
+
+  .brief-aroma{
+   .brief-aroma-photo{
+     width: 200px;
+   }
+  }
   .title-aroma {
     .tags-aroma {
       margin-bottom: 20px;
@@ -112,6 +123,25 @@ $main-color: #6E00A1;
       margin-bottom: 50px;
     }
   }
+
+  .inspiration-phase {
+    .HCD-aroma-photo{
+      img{
+        width: 200px;
+      }
+    }
+    margin-bottom: 50px;
+  }
+
+  .ideation_phase {
+    .HCD-aroma-text {
+      margin-bottom: 30px;
+    }
+    img {
+      width: 450px;
+    }
+  }
+
   .brief-aroma {
     margin-bottom: 50px;
   }
@@ -138,20 +168,33 @@ $main-color: #6E00A1;
     margin-bottom: 50px;
   }
 
-  .work-plan-spas {
-    margin-bottom: 50px;
+  .empathize {
+    margin-bottom: 100px;
+    img {
+      vertical-align: middle;
+      width: 200px;
+    }
   }
 
-  .personas-spas {
+  .define {
     margin-bottom: 50px;
+    img {
+      width: 200px;
+    }
+    .heuristicpic {
+      margin-top: 30px;
+      img {
+        width: 1000px;
+      }
+    }
   }
 
-  .heuristic-spas {
-    margin-bottom: 50px;
+  .ideate {
+    margin-bottom: 100px;
   }
 
-  .testing-spas {
-    margin-bottom: 50px;
+  .prototype {
+    margin-bottom: 100px;
   }
 
   .prot-spas {
@@ -193,6 +236,82 @@ $main-color: #6E00A1;
 
   .proto-salateria {
     margin-bottom: 50px;
+  }
+}
+
+//interior design
+.WB-423 {
+  .aboutapartment{
+    margin-bottom: 50px;
+  }
+  .kitchen {
+    margin-bottom: 30px;
+    .kitchenfoto {
+      margin-bottom: 30px;
+    }
+  }
+
+  .bathroom {
+    margin-bottom: 30px;
+    .bathroomfoto {
+      margin-bottom: 30px;
+    }
+  }
+
+  .badroom {
+    margin-bottom: 30px;
+    .badroomfoto{
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+//works
+.works-page {
+  margin-bottom: 50px;
+  .container {
+    .card {
+      position: relative;
+      width: 100%;
+      height: 150px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      &.ux {
+        background-image: url("/images/uxdesignpic.png");
+        h2 {
+          padding-left: 20px;
+          padding-top: 20px;
+          line-height: 1;
+        }
+      }
+      &.web {
+        background-image: url("/images/webdesignpic.png");
+        h2 {
+          text-align: right;
+          padding-right: 20px;
+          padding-top: 20px;
+          line-height: 1;
+        }
+      }
+      &.interior {
+        background-image: url("/images/interiordesignpic.png");
+        h2 {
+          padding-left: 20px;
+          padding-top: 20px;
+          line-height: 1;
+        }
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+    h2 {
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+    }
   }
 }
 

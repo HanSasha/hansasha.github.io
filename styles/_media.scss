@@ -1,5 +1,4 @@
 @include media-breakpoint-up(md) {
-
   // general
   h1 {
     font-size: 72px;
@@ -104,11 +103,47 @@
   //works
 
   .works-page {
-    .card {
-      h2 {
-        font-size: 28px;
+    margin-bottom: 100px;
+    .container {
+      .card {
+        position: relative;
+        width: 100%;
+        height: 650px;
+        background-size: cover;
+        margin: 0;
+        &.ux {
+          background-image: url("/images/uxdesignpic.png");
+          h2 {
+            padding-left: 50px;
+            padding-top: 50px;
+            line-height: 1;
+          }
+        }
+        &.web {
+          background-image: url("/images/webdesignpic.png");
+          h2 {
+            text-align: right;
+            padding-right: 100px;
+            padding-top: 100px;
+            line-height: 1;
+          }
+        }
+        &.interior {
+          background-image: url("/images/interiordesignpic.png");
+          h2 {
+            padding-left: 100px;
+            padding-top: 100px;
+            line-height: 1;
+          }
+        }
       }
-      font-size: 20px;
+      a {
+        text-decoration: none;
+      }
+      h2 {
+        font-size: 72px;
+        color: rgb(255, 255, 255);
+      }
     }
   }
 
@@ -182,4 +217,124 @@
     }
   }
 
+  //uxdesign
+  .projectpage {
+    .card {
+      margin-bottom: 100px;
+    }
+  }
+
+  //interior design
+  .WB-423 {
+    .aboutapartment {
+      margin-bottom: 50px;
+    }
+    .kitchen {
+      margin-bottom: 100px;
+      .kitchenfoto {
+        margin-bottom: 100px;
+      }
+    }
+
+    .bathroom {
+      margin-bottom: 100px;
+      .bathroomfoto {
+        margin-bottom: 100px;
+      }
+    }
+
+    .badroom {
+      margin-bottom: 100px;
+      .badroomfoto {
+        margin-bottom: 100px;
+      }
+    }
+  }
+
+  //spas page
+  .spas-page {
+    .title-spas {
+      .tags-spas {
+        margin-bottom: 20px;
+      }
+      margin-bottom: 50px;
+    }
+
+    .empathize {
+      margin-bottom: 100px;
+      img {
+        vertical-align: middle;
+        width: 440px;
+      }
+    }
+
+    .define {
+      margin-bottom: 100px;
+      img {
+        width: 300px;
+      }
+      .heuristicpic {
+        margin-top: 100px;
+        img {
+          width: 1000px;
+        }
+      }
+    }
+
+    .ideate {
+      margin-bottom: 100px;
+    }
+
+    .prototype {
+      margin-bottom: 100px;
+    }
+
+    .prot-spas {
+      margin-bottom: 50px;
+    }
+  }
+
+  //Aroma Kava
+  .aroma-kava {
+    .title-aroma {
+      .tags-aroma {
+        margin-bottom: 20px;
+      }
+      .project-info {
+        margin-bottom: 50px;
+      }
+      .title-aroma-photo {
+        margin-bottom: 50px;
+      }
+    }
+
+    .inspiration-phase {
+      margin-bottom: 100px;
+    }
+
+    .ideation_phase {
+      .HCD-aroma-text {
+        margin-bottom: 30px;
+      }
+      img {
+        width: 450px;
+      }
+    }
+
+    .brief-aroma {
+      margin-bottom: 50px;
+    }
+
+    .HCD-aroma {
+      margin-bottom: 50px;
+    }
+
+    .cases-aroma {
+      margin-bottom: 50px;
+    }
+
+    .proto-aroma {
+      margin-bottom: 50px;
+    }
+  }
 }
